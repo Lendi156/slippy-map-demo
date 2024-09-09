@@ -1,8 +1,24 @@
-# React + Vite
+# Slippy Map Demo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repo contain example code of Maplibre and React Map Gl implementation inside Vite with React project.
 
-Currently, two official plugins are available:
+## Information
+This application is built using HTML, CSS, Javacript, React Js, Vite Js, Maplibre-gl, & React-Map-Gl.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
+
+Install the dependencies and devDependencies and start the server.
+
+```sh
+$ cd {your-path-project}
+$ npm install / yarn install
+```
+
+Runs the app in the development mode.
+
+```sh
+$ npm run dev / yarn run dev
+
+# to be accessible from the local network
+$ npm run dev -- --host / yarn run dev -- --host
+```
